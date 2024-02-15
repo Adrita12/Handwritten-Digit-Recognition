@@ -13,9 +13,9 @@ The model architecture includes a flattening layer, two dense hidden layers with
 The model is trained on the MNIST dataset for a specified number of epochs.
 The trained model is saved for later use.
 
-4.Model Loading and Inference:
+4. Model Loading and Inference:
 The pre-trained model is loaded from the saved file.
 Images of handwritten digits are processed using OpenCV and fed into the model for prediction.
 
-5.Results Display:
+5. Results Display:
 Predictions are made for each image, and the results are displayed along with visual representations of the input images using Matplotlib.
